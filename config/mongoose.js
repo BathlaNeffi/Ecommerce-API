@@ -1,7 +1,8 @@
 // Creating a database to store products
 const mongoose = require('mongoose');
 // Connecting the database
-mongoose.connect(`mongodb://localhost:27017/ecommerce_dev`);
+// mongoose.connect(`mongodb://localhost:27017/ecommerce_dev`);
+mongoose.connect(`mongodb+srv://${process.env.PLACEMENT_CELL_REMOTE_DB}`);
 const db=mongoose.connection;
 // on unsuccessfull connection
 db.on('error', console.error.bind(console,'Error in connecting to the MongoDB'));

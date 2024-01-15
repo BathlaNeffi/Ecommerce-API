@@ -1,5 +1,6 @@
 // Imported libraries
 const express =require('express');
+require('dotenv').config();
 const app=express(); // Creating an App with Express
 const port=8000;
 const routes = require('./routes');
