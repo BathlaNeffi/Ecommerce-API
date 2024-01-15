@@ -114,3 +114,5 @@ Ecommerce-API
 
 # The api is live on 
 http://44.201.174.199:8000/api/v1/products
+
+https://ecommerceapi-ktkt.onrender.com/api/v1/products
